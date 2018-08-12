@@ -5,6 +5,7 @@ body {
 	background-image: url("../images/kylebanner.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 }
 
 .bannertext h2 {
@@ -60,10 +61,49 @@ body {
     border-radius: 5px;
 }
 
-@media(min-width: 1024px){
-	body {
-		height: 100vh;
-		width: 90vw;
-	}
 
+/* iPad Pro */
+@media (max-width: 1366px) {
+	#textContainer {
+		padding-top: 550px;
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	#textContainer {
+		padding-top: 400px;
+	}
+}
+
+/* iPad */
+@media (max-width: 1024px) {
+	#textContainer {
+		padding-top: 400px;
+	}
+}
+@media only screen and (orientation: landscape) {
+	#textContainer {
+		padding-top: 300px;
+	}
+}
+
+/* iPhoneX */
+
+/* write more instructions here... */
+
+
+/* iPhone 6/7/8 Plus */
+@media(max-width: 736px){
+	.bannertext h1 {
+		font-size: 40px;
+	}
+	.storehours h2 {
+		padding: 10px;
+	}
+	#days {
+		padding: 5px;
+	}
+	#btn2 {
+		margin-top: 25px;
+	}
 }
