@@ -33,6 +33,9 @@ var dateandTimes = [
 const buttons = document.querySelectorAll('BUTTON');
 //Attach an event listener to each button that will display the
 //correct text when clicked.
+// The forEach() method calls a provided function once for each element in an 
+// array, in order. Note: forEach() does not execute the function for array 
+// elements without values.
 buttons.forEach((button, index) => {
 //the addEventListener is looking for click and performs the anomynous function:
 	button.addEventListener('click', () => {
