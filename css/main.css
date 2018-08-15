@@ -78,7 +78,7 @@ body {
 /* iPad */
 @media (max-width: 1024px) {
 	#textContainer {
-		padding-top: 400px;
+		padding-top: 410px;
 	}
 }
 @media only screen and (orientation: landscape) {
