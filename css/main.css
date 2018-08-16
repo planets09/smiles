@@ -63,12 +63,11 @@ body {
 
 
 /* iPad Pro */
-@media (max-width: 1366px) {
+@media (max-width: 1024px) {
 	#textContainer {
 		padding-top: 550px;
 	}
 }
-
 @media only screen and (orientation: landscape) {
 	#textContainer {
 		padding-top: 400px;
@@ -76,7 +75,7 @@ body {
 }
 
 /* iPad */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
 	#textContainer {
 		padding-top: 410px;
 	}
@@ -88,20 +87,84 @@ body {
 }
 
 /* iPhoneX */
-
-/* write more instructions here... */
-
+@media(max-width: 375px){
+	#textContainer {
+		padding-top: 350px;
+	}
+	.bannertext h1 {
+		font-size: 36px;
+	}
+	.bannertext h2{
+		font-size: 32px;
+	}
+	.storehours h2 {
+		padding: 5px;
+	}
+	#days .btn{
+		margin: 3px;
+	}
+	#btn2 {
+		margin-top: 20px;
+	}
+}
 
 /* iPhone 6/7/8 Plus */
-@media(max-width: 736px){
+@media(max-width: 414px){
+	#textContainer {
+		padding-top: 200px;
+	}
 	.bannertext h1 {
-		font-size: 40px;
+		font-size: 30px;
+	}
+	.bannertext h2{
+		font-size: 28px;
 	}
 	.storehours h2 {
 		padding: 10px;
 	}
-	#days {
+	#days .btn {
 		padding: 5px;
+	}
+	#btn2 {
+		margin-top: 25px;
+	}
+}
+
+/* iPhone 6/7/8 */
+@media(max-width: 375px){
+	#textContainer {
+		padding-top: 170px;
+	}
+	.bannertext h1 {
+		font-size: 28px;
+	}
+	.bannertext h2{
+		font-size: 25px;
+	}
+	.storehours h2 {
+		padding: 3px;
+	}
+	#btn2 {
+		margin-top: 25px;
+	}
+}
+
+/* iPhone 5/SE */
+@media(max-width: 320px){
+	#textContainer {
+		padding-top: 150px;
+	}
+	.bannertext h1 {
+		font-size: 25px;
+	}
+	.bannertext h2{
+		font-size: 22px;
+	}
+	.storehours h2 {
+		padding: 5px;
+	}
+	#days .btn{
+		padding: 3px;
 	}
 	#btn2 {
 		margin-top: 25px;
