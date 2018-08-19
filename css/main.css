@@ -21,7 +21,7 @@ body {
 }
 
 #textContainer {
-	padding-top: 200px;
+	padding-top: 385px;
 	color: white;
 	text-align: center;
 	margin: auto 0;
@@ -65,25 +65,34 @@ body {
 /* iPad Pro */
 @media (max-width: 1024px) {
 	#textContainer {
-		padding-top: 550px;
-	}
-}
-@media only screen and (orientation: landscape) {
-	#textContainer {
-		padding-top: 400px;
+		padding-top: 430px;
 	}
 }
 
 /* iPad */
 @media (max-width: 768px) {
 	#textContainer {
-		padding-top: 410px;
+		padding-top: 400px;
 	}
 }
-@media only screen and (orientation: landscape) {
-	#textContainer {
-		padding-top: 300px;
+
+@media (max-width: 625px) {
+	.bannertext h1 {
+		font-size: 32px;
 	}
+	.bannertext h2{
+		font-size: 30px;
+	}
+	.storehours h2 {
+		padding: 5px;
+	}
+	#days .btn{
+		margin: 3px;
+	}
+	#btn2 {
+		margin-top: 20px;
+	}
+
 }
 
 /* iPhoneX */
