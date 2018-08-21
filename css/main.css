@@ -95,28 +95,6 @@ body {
 
 }
 
-/* iPhoneX */
-@media(max-width: 375px){
-	#textContainer {
-		padding-top: 350px;
-	}
-	.bannertext h1 {
-		font-size: 36px;
-	}
-	.bannertext h2{
-		font-size: 32px;
-	}
-	.storehours h2 {
-		padding: 5px;
-	}
-	#days .btn{
-		margin: 3px;
-	}
-	#btn2 {
-		margin-top: 20px;
-	}
-}
-
 /* iPhone 6/7/8 Plus */
 @media(max-width: 414px){
 	#textContainer {
@@ -139,7 +117,29 @@ body {
 	}
 }
 
-/* iPhone 6/7/8 */
+/* iPhoneX */
+@media(max-width: 375px){
+	#textContainer {
+		padding-top: 350px;
+	}
+	.bannertext h1 {
+		font-size: 36px;
+	}
+	.bannertext h2{
+		font-size: 32px;
+	}
+	.storehours h2 {
+		padding: 5px;
+	}
+	#days .btn{
+		margin: 3px;
+	}
+	#btn2 {
+		margin-top: 20px;
+	}
+}
+
+/* iPhone 6/7/8
 @media(max-width: 375px){
 	#textContainer {
 		padding-top: 170px;
@@ -156,7 +156,7 @@ body {
 	#btn2 {
 		margin-top: 25px;
 	}
-}
+} */
 
 /* iPhone 5/SE */
 @media(max-width: 320px){
