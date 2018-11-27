@@ -11,6 +11,7 @@ body {
 .bannertext h2 {
 	font-family: 'Merriweather', serif;
 	font-size: 32px;
+	margin-right: 50px;
 }
 
 .bannertext h1 {
@@ -23,12 +24,16 @@ body {
 #textContainer {
 	padding-top: 385px;
 	color: white;
-	text-align: center;
+	text-align: right;
 	margin: auto 0;
 }
 
 #hours {
 	text-transform: uppercase;
+}
+
+.storehours{
+	margin-right: 60px;
 }
 
 .storehours h2 {
@@ -56,7 +61,8 @@ body {
     color: white;
     border-style: solid;
     border-color: white;
-    padding: 8px 40px;
+	padding: 8px 40px;
+	margin-right: 100px;
     margin-top: 15px;
     border-radius: 5px;
 }
