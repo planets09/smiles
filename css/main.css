@@ -2,9 +2,9 @@ body {
 	height: 100vh;
 	width: 100vw;
 	margin: 0;
-	background-image: url("../images/smiles640x427.jpg");
+	background-image: url("../images/kylebanner.jpg");
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-size: 100%;
 	background-position: center;
 }
 
@@ -32,10 +32,10 @@ body {
 	text-transform: uppercase;
 }
 
-.storehours{
+/* .storehours{
 	margin-right: 70px;
 	margin-top: 50px;
-}
+} */
 
 .storehours h2 {
 	display: inline-block;
@@ -74,20 +74,24 @@ h1, h2 {
 
 
 /* iPad Pro */
-@media (max-width: 1024px) {
+@media (max-width: 1260px) {
 	#textContainer {
 		padding-top: 430px;
+	}
+	body {
+		background-size: 130%;
+		background-position: 100% 30%;
 	}
 }
 
 /* iPad */
-@media (max-width: 768px) {
+@media (max-width: 824px) {
 	#textContainer {
-		padding-top: 400px;
+		padding-top: 340px;
 	}
 }
 
-@media (max-width: 625px) {
+@media (max-width: 735px) {
 	.bannertext h1 {
 		font-size: 32px;
 	}
@@ -103,11 +107,15 @@ h1, h2 {
 	#btn2 {
 		margin-top: 20px;
 	}
+	body {
+		background-size: 145%;
+		background-position: 80% 50%;
+	}
 
 }
 
 /* iPhone 6/7/8 Plus */
-@media(max-width: 414px){
+@media(max-width: 500px){
 	#textContainer {
 		padding-top: 200px;
 	}
@@ -126,10 +134,14 @@ h1, h2 {
 	#btn2 {
 		margin-top: 25px;
 	}
+	body{
+		background-size: 165%;
+		background-position: 83% 13%;
+	}
 }
 
 /* iPhoneX */
-@media(max-width: 375px){
+@media(max-width: 390px){
 	#textContainer {
 		padding-top: 350px;
 	}
@@ -147,6 +159,10 @@ h1, h2 {
 	}
 	#btn2 {
 		margin-top: 20px;
+	}
+	body{
+		background-size: 200%;
+		background-position: 90% 8%;
 	}
 }
 
