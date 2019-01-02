@@ -4,14 +4,13 @@ body {
 	margin: 0;
 	background-image: url("../images/kylebanner.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	background-position: center;
 }
 
 .bannertext h2 {
 	font-family: 'Merriweather', serif;
 	font-size: 32px;
-	margin-right: 50px;
 }
 
 .bannertext h1 {
@@ -26,16 +25,14 @@ body {
 	color: white;
 	text-align: right;
 	margin: auto 0;
+	padding-right: 4rem;
 }
 
 #hours {
 	text-transform: uppercase;
+	margin-right: 0;
+	padding-right: 0;
 }
-
-/* .storehours{
-	margin-right: 70px;
-	margin-top: 50px;
-} */
 
 .storehours h2 {
 	display: inline-block;
@@ -57,6 +54,8 @@ h1, h2 {
 	margin: 0px;
 	background-color: transparent;
 	text-decoration: underline;
+	position: relative;
+	left: 12px;
 }
 
 #btn2 {
@@ -67,7 +66,6 @@ h1, h2 {
     border-style: solid;
     border-color: white;
 	padding: 8px 40px;
-	margin-right: 100px;
     margin-top: 15px;
     border-radius: 5px;
 }
@@ -79,15 +77,18 @@ h1, h2 {
 		padding-top: 430px;
 	}
 	body {
-		background-size: 130%;
-		background-position: 100% 30%;
+		background-position: 85% 30%;
 	}
 }
 
 /* iPad */
 @media (max-width: 824px) {
 	#textContainer {
-		padding-top: 340px;
+		padding-top: 55%;
+	}
+	body {
+		background-position: 55% 100%;
+    	background-size: 215%;
 	}
 }
 
@@ -108,8 +109,11 @@ h1, h2 {
 		margin-top: 20px;
 	}
 	body {
-		background-size: 145%;
-		background-position: 80% 50%;
+		background-size: cover;
+		background-position: 58% 50%;
+	}
+	#textContainer {
+		padding-top: 60%;
 	}
 
 }
@@ -117,7 +121,7 @@ h1, h2 {
 /* iPhone 6/7/8 Plus */
 @media(max-width: 500px){
 	#textContainer {
-		padding-top: 200px;
+		padding-top: 40vh;
 	}
 	.bannertext h1 {
 		font-size: 30px;
@@ -134,16 +138,38 @@ h1, h2 {
 	#btn2 {
 		margin-top: 25px;
 	}
-	body{
-		background-size: 165%;
-		background-position: 83% 13%;
+	body {
+		background-size: 250%;
+    	background-position: 55% 100%;
 	}
+
+	br {
+		display: none;
+	}
+
+	h2:first-child {
+		margin-bottom: 0.75rem;
+	}
+	
+	#btn2 {
+		margin-top: 0.75rem;
+	}
+	
+	.storehours > h2 {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
 }
 
 /* iPhoneX */
 @media(max-width: 390px){
 	#textContainer {
-		padding-top: 350px;
+		text-align: center;
+		padding-right: 0;
+		padding-top: 0.5rem;
+		height: 100%;
+		background-color: rgba(0,0,0,0.4);
 	}
 	.bannertext h1 {
 		font-size: 36px;
@@ -161,29 +187,11 @@ h1, h2 {
 		margin-top: 20px;
 	}
 	body{
-		background-size: 200%;
-		background-position: 90% 8%;
+		background-size: cover;
+		background-position: 50%;
 	}
 }
 
-/* iPhone 6/7/8
-@media(max-width: 375px){
-	#textContainer {
-		padding-top: 170px;
-	}
-	.bannertext h1 {
-		font-size: 28px;
-	}
-	.bannertext h2{
-		font-size: 25px;
-	}
-	.storehours h2 {
-		padding: 3px;
-	}
-	#btn2 {
-		margin-top: 25px;
-	}
-} */
 
 /* iPhone 5/SE */
 @media(max-width: 320px){
@@ -204,5 +212,16 @@ h1, h2 {
 	}
 	#btn2 {
 		margin-top: 25px;
+	}
+}
+@media(max-width: 824px) and (min-height: 800px) {
+	body {
+		background-size: cover;
+		background-position: 50%;
+	}
+}
+@media(max-height: 800px) {
+	#textContainer {
+		padding-top: 25vh;
 	}
 }
